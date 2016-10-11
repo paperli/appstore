@@ -65,6 +65,48 @@ $spacing-unit:     0;
 
 #screen>#appicon{
 	position:absolute;
+	display: block;
+	width: 72px;
+	height: 72px;
+	top: 83px;
+	left: 20px;
+	border-radius:16px;
+	overflow:hidden;
+	border:0.5px #CFCFCF solid;
 }
 
+#app_name_field{
+	position: absolute;
+	top: 90px;
+	left: 98px;
+	font-size: 14px;
+	background: white;
+	border: none;
+}
 
+#company_name{
+	position: absolute;
+	top: 129px;
+	left: 102px;
+	color: #757575;
+	font-size: 12px;
+	background: white;
+	min-width: 200px;
+}
+
+.screenshot{
+	position:absolute;
+	top:195px;
+	left:120px;
+}
+
+#screen1 {
+	left:24px;
+}
+
+#screen2 {
+	left:189px;
+}
+.screenshot>img{
+	width:160px;
+}
