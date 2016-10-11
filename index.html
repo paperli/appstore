@@ -3,21 +3,24 @@ layout: default
 ---
 
 <div class="home">
+  
+  
 
-  <h1 class="page-heading">Posts</h1>
+  <div id="screen">
+    <img src="img/main.png" width="100%">
+    <div class="top_cover"></div>
+    <div class="bottom_cover"></div>
+    <div id="appicon">
+      <img src="img/appicon.png">
+    </div>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div id="navbar">
+    <img src="img/main.png" width="100%">
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div id="tabbar">
+    
+  </div>
 
 </div>
