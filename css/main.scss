@@ -204,3 +204,15 @@ $spacing-unit:     0;
 	background:url(../img/detail.png) no-repeat bottom center;
 	background-size:100% auto;
 }
+
+#p2 #description {
+	position:absolute;
+	top:800px;
+	left:16px;
+	width:342px;
+	background:white;
+	border:none;
+	color:rgb(105,105,105);
+	font-size:12px;
+
+}
