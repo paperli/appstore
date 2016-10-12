@@ -54,10 +54,10 @@ $spacing-unit:     0;
 	position:relative;
 }
 
-#screen>.bottom_cover {
+.bottom_cover {
 	display:block;
 	width:100%;
-	height:49px;
+	height:50px;
 	position:absolute;
 	bottom:0;
 	background:white;
@@ -108,6 +108,111 @@ $spacing-unit:     0;
 #screen2 {
 	left:190px;
 }
+
 .screenshot>img{
 	width:160px;
+}
+
+#hitarea {
+	width:100%;
+	height:500px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#page_container {
+	width:100%;
+	position:absolute;
+	height:1545px;
+	top:0;
+	left:0;
+	overflow:hidden;
+	display:none;
+}
+
+#p2 {
+	position:absolute;
+	left:375px;
+	width:375px;
+	height:100%;
+	overflow:hidden;
+	background:white;
+}
+
+#hitarea2 {
+	width:120px;
+	height:64px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#appicon_p2 {
+	position:absolute;
+	display: block;
+	width: 100px;
+	height: 100px;
+	top: 78px;
+	left: 14px;
+	border-radius:20px;
+	overflow:hidden;
+	border:0.5px #CFCFCF solid;
+}
+
+.screenshot_p2{
+	position:absolute;
+	top:315px;
+	left:120px;
+}
+
+.screenshot_p2>img{
+	width:195px;
+	min-width:195px;
+}
+
+#screen1_p2 {
+	left:15px;
+}
+
+#screen2_p2 {
+	left:224px;
+}
+
+.p2_content {
+	height:1545px;
+	overflow:hidden;
+}
+
+.p1_content {
+	height:auto;
+	overflow:scroll;
+}
+
+#p2>#section1 {
+	overflow:hidden;
+	position: absolute;
+	top:0;
+	height: 800px;
+}
+
+#p2>#section2 {
+	position:absolute;
+	bottom:0;
+	height:640px;
+	width:100%;
+	background:url(../img/detail.png) no-repeat bottom center;
+	background-size:100% auto;
+}
+
+#p2 #description {
+	position:absolute;
+	top:800px;
+	left:16px;
+	width:342px;
+	background:white;
+	border:none;
+	color:rgb(105,105,105);
+	font-size:12px;
+
 }
